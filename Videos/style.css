@@ -10,7 +10,9 @@ b{
     max-width: 30%;
 }
 #videos{
-    max-width: 80%;
+    width: 80%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
     display: block;
     margin: auto;
 }
