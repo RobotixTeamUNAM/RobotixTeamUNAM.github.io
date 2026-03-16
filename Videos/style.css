@@ -10,7 +10,9 @@ b{
     max-width: 30%;
 }
 #videos{
-    max-width: 70%;
+    width: 100%;
+    max-width: "560";
+    height:"315";
 }
 .main-nav{
     background-color:rgb(84, 140, 142);
