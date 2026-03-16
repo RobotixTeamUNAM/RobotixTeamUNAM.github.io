@@ -11,6 +11,8 @@ b{
 }
 #videos{
     max-width: 80%;
+    display: block;
+    margin: auto;
 }
 .main-nav{
     background-color:rgb(84, 140, 142);
