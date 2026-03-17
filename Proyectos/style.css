@@ -17,6 +17,12 @@ b{
 #videos{
     max-width: 70%;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}
 .main-nav{
     background-color:rgb(84, 140, 142);
     list-style: none;
