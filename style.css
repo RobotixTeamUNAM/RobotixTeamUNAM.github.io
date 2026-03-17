@@ -17,6 +17,11 @@ b{
 #videos{
     max-width: 70%;
 }
+.robot{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .main-nav{
     background-color:rgb(84, 140, 142);
     list-style: none;
