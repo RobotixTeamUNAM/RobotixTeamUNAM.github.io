@@ -12,7 +12,7 @@ b{
     font-size: 20px;
 }
 #flowers{
-    max-width: 80%;
+    max-width: 90%;
 }
 #videos{
     max-width: 70%;
@@ -20,7 +20,7 @@ b{
 .robot{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .main-nav{
     background-color:rgb(84, 140, 142);
