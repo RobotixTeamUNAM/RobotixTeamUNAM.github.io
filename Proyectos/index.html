@@ -23,6 +23,16 @@
         border-radius: 50%; 
         object-fit: cover; 
         }
+        .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        list-style: none; /* quita los puntos */
+        padding: 0;
+        }
+        .contenedor li {
+          text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -75,18 +85,27 @@
     <h2>En proceso...</h2>
     
     <h1>Colaboradores</h1>
-    <ul>
-        <li>Padilla Alfaro Pamela</li>
-        <figure><img src="./Pamss2.jpg" alt="people" class="colaborador"></figure>
-        <li>Leonardo Alejando García Lerma</li>
-        <figure><img src="./AleLeo.jpeg" alt="people" class="colaborador"></figure>
-        <li>Leonardo Santos Vicente</li>
-        <figure><img src="./LeonardoSantos.jpeg" alt="people" class="colaborador"></figure>
-        <li>Tensin Uriel González Gómez</li>
-        <li>Carlos Iván Guzmán Flores</li>
-        <li>Erick Jhibran Campos Muñoz</li>
-        <li>Leonardo Gutierrez</li>
-        <li>Arturo Jair Gallegos Garay</li>
+    <ul class="contenedor">
+      <li>
+        <p>Padilla Alfaro Pamela</p>
+        <img src="./Pamss2.jpg" class="colaborador">
+      </li>
+    
+      <li>
+        <p>Leonardo Alejandro García Lerma</p>
+        <img src="./AleLeo.jpeg" class="colaborador">
+      </li>
+    
+      <li>
+        <p>Leonardo Santos Vicente</p>
+        <img src="./LeonardoSantos.jpeg" class="colaborador">
+      </li>
+    
+      <li><p>Tensin Uriel González Gómez</p></li>
+      <li><p>Carlos Iván Guzmán Flores</p></li>
+      <li><p>Erick Jhibran Campos Muñoz</p></li>
+      <li><p>Leonardo Gutierrez</p></li>
+      <li><p>Arturo Jair Gallegos Garay</p></li>
     </ul>
     
 </body>
